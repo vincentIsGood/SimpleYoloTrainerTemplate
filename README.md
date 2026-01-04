@@ -1,12 +1,7 @@
 # Yolo Model Training
 A very very simple example (w/ required script & tools) to train your own Yolo model. It's very easy.
 
-An annotation tool is already provided which I downloaded from https://github.com/LdDl/yolo-ann .
-To use it locally, simply click on the `index.html` after extracting it.
-
-Then, you need to
-1. Select your image(s) for `Images`
-2. Select `classes.names` for `Classes`
+`inference.py` is just a test with the default `yolo11n.pt` model on a `bus.jpg`
 
 ## Guidance
 You need to:
@@ -15,6 +10,15 @@ You need to:
     - You can use `0_tool/yolo-ann-master/index.html` to get the `labels`
 3. Modify `classes.names` and `dataset.yaml` to suit your needs
 4. `python3 train.py`
+5. `python3 val_test.py` to test if the new model works
+
+## Annotation Tool
+An annotation tool is already provided which I downloaded from https://github.com/LdDl/yolo-ann .
+To use it locally, simply click on the `index.html` after extracting it.
+
+Then, you need to
+1. Select your image(s) for `Images`
+2. Select `classes.names` for `Classes`
 
 ## What is the example doing?
 Train a YOLO model to detect `folder` icons.
