@@ -1,0 +1,20 @@
+## Structure & Format needed
+# ./train
+#    images/
+#       data1.png
+#    labels/
+#       data1.txt
+# 
+# ./val
+#    images/
+#    labels/
+#
+
+# path: .
+train: ./train
+val: ./val
+
+## Annotation tool: https://lddl.github.io/yolo-ann/
+# Order matters (Classes are 0-indexed)
+names:
+  - folder
