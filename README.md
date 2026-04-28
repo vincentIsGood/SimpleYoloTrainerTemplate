@@ -5,7 +5,7 @@ A very very simple example (w/ required script & tools) to train your own Yolo m
 
 ## Guidance
 You need to:
-1. Download the model `yolo11n.pt` and put it in `models/` from [here](https://huggingface.co/Ultralytics/YOLO11/tree/365ed86341e7a7456dbc4cafc09f138814ce9ff1)
+1. Download the model `yolo11n.pt` (by running `model = YOLO("yolo11n.pt")` in Python RePL or script) and put it in `models/` from [here](https://huggingface.co/Ultralytics/YOLO11/tree/365ed86341e7a7456dbc4cafc09f138814ce9ff1)
 2. Prepare data (images and labels) for `training/train/`, then `training/val/`
     - You can use `0_tool/yolo-ann-master/index.html` to get the `labels`
 3. Modify `classes.names` and `dataset.yaml` to suit your needs
